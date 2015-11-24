@@ -1,7 +1,7 @@
 -- [List Manipulations]
 stringsAreLists = "hello" == ['h','e','l','l','o']
 
--- this is N(1) i think, try to avoid it on large lists.
+-- this is O(n) i think, try to avoid it on large lists.
 listAppend x y = x ++ y
 
 --this appears to be instant? better if you don't care about order.
