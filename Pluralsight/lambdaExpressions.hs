@@ -1,0 +1,1 @@
+doubleSet y = map (\x -> (2 * x)/16) y
