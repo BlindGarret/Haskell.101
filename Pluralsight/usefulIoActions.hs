@@ -1,0 +1,8 @@
+--putStrLn prints string to console
+--getLine reads line form a console
+--print prints show representation to console
+--readFile Read an entire file as a lazy string
+--writeFile write a string to a file lazily
+--appendFile appends a string to end of a file
+--interact takes in IO input as a string and passes it to a function
+--      printing the string output of that function lazily
